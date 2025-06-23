@@ -18,25 +18,23 @@
 #    If not, see <http://www.gnu.org/licenses/>.
 #############################################################################
 {
-    'name': 'Picking Order Line Views',
-    'version': '18.0.1.0.0',
-    'category': 'Sales',
-    'summary': """Picking Order Lines Views is helpful for the Detailed view of the picking
+    "name": "Picking Order Line Views",
+    "version": "18.0.1.0.0",
+    "category": "Sales",
+    "license": "LGPL-3",
+    "summary": """Picking Order Lines Views is helpful for the Detailed view of the picking
      order lines including the product images""",
-    'description': """Picking Order Line Detailed Views Shows us the Transfer Order with 
+    "description": """Picking Order Line Detailed Views Shows us the Transfer Order with
     images of their related products in the tree view of stock move lines""",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': "https://www.cybrosys.com",
-    'depends': ['base', 'sale', 'stock', 'sale_management', 'purchase'],
-    'data': [
-        'views/stock_move_line_views.xml',
-        'views/stock_picking_views.xml'
-    ],
-    'images': ['static/description/banner.jpg'],
-    'licence': 'LGPL-3',
-    'installable': True,
-    'auto_install': False,
-    'application': False,
+    "author": "Cybrosys Techno Solutions",
+    "company": "Cybrosys Techno Solutions",
+    "maintainer": "Cybrosys Techno Solutions",
+    "website": "https://www.cybrosys.com",
+    "depends": ["base", "sale", "stock", "sale_management", "purchase"],
+    "data": ["views/stock_move_line_views.xml", "views/stock_picking_views.xml"],
+    "images": ["static/description/banner.jpg"],
+    "licence": "LGPL-3",
+    "installable": True,
+    "auto_install": False,
+    "application": False,
 }

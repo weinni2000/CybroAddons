@@ -23,6 +23,7 @@
     'name': 'Sale Order Line Views',
     'version': '18.0.1.0.0',
     'category': 'Sales',
+    'license': 'LGPL-3',
     'summary': 'This module enhances the sales management process by '
                'providing a comprehensive and detailed view of both sale '
                'orders and quotation lines within a business application.',
